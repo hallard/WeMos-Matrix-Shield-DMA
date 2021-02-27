@@ -9,7 +9,7 @@ This was until [@mrfaptastic](https://github.com/mrfaptastic/ESP32-HUB75-MatrixP
 
 See it in action, nice isn't it?
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA.mov">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA.gif">
 
 This breakout has just few minimal features.
 
@@ -94,7 +94,7 @@ Thanks to [HariFun][1] for this awesome stuff, please review and see how to buil
 [1]: https://www.instructables.com/member/HariFun/
 [2]: https://hallard.me
 [3]: https://www.instructables.com/id/Morphing-Digital-Clock/
-[4]: https://PCBs.io/share/rG9w7
+[4]: https://PCBs.io/share/
 
 [20]: https://wiki.wemos.cc/products:d1:d1_mini_lite
 [21]: https://wiki.wemos.cc/products:d1:d1_mini
