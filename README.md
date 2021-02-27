@@ -9,7 +9,7 @@ This was until [@mrfaptastic](https://github.com/mrfaptastic/ESP32-HUB75-MatrixP
 
 See it in action, nice isn't it?
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/raw/master/pictures/WeMos-Matrix-Shield-DMA.mov">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA.mov">
 
 This breakout has just few minimal features.
 
@@ -23,9 +23,9 @@ This breakout has just few minimal features.
 
 Please check wiring and picture before ordering, should looks like something like that:
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/raw/master/pictures/esp32-mini-all.jpg">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/esp32-mini-all.jpg">
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/raw/master/pictures/esp32-mini.jpg">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/esp32-mini.jpg">
 
 
 **V1.8 boards are untested** so until I validate use at your own risk, but I'm confident it should works out of the box.
@@ -36,12 +36,12 @@ Look at the schematics for more informations.
 
 # Schematic  
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/raw/master/pictures/WeMos-Matrix-Shield-DMA-sch.png">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-sch.png">
 
 # Boards  
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/raw/master/pictures/WeMos-Matrix-Shield-DMA-top.png" alt="Top" width="40%" height="40%">&nbsp;
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/raw/master/pictures/WeMos-Matrix-Shield-DMA-bot.png" alt="Bottom" width="40%" height="40%">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-top.png" alt="Top" width="40%" height="40%">&nbsp;
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-bot.png" alt="Bottom" width="40%" height="40%">
 
 You can order the PCB of this board at [PCBs.io][4]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order them for free, so if you don't care about PCB manufacturer please use PCBs.io.
 
@@ -72,11 +72,11 @@ To be done, still waiting for PCB to test
 Nothing fancy, just some headers and 2 differents power conector (choose the one you prefer) :
 
  - Ebay search for "DC Power Jack Barrel PCB Mount"
- <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/DC-Power-Barrel.jpg">
- - Phoenix contact PCB terminal block - SPTAF ref 1864286 (V1.0) or 1864435 (V1.1+) can be found anywhere
- <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/SPTAF-1864286.jpg">
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/DC-Power-Barrel.jpg">
+ - 7.62mm barrier terminal block [example](https://ebyelectro.com/terminal-block-product-info.asp?ProductID=333)
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/barrier-7_62.png">
 - Ebay search for "2X8 Pin 2.54mm Double Row Female Header" or polulu product #1028, you can also use twice 1x8 pin female or even twice 2x4 pins female, plenty of option for this one
- <img src="https://github.com/hallard/WeMos-Matrix-Shield/raw/master/pictures/2X8-pin-connector.jpg">
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/2X8-pin-connector.jpg">
 
 
 # License
