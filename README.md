@@ -77,10 +77,11 @@ Nothing fancy, just some headers and 2 differents power conector (choose the one
  - I2C 4.7K resistor 0805 if needed, default I2C set to 3.3V use JP3 if you prefer 5V
  - Diode can be any Schottky diode barrier and is not mandatory (if not close JP4 jumper)
  - Ebay search for "DC Power Jack Barrel PCB Mount"
- <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/DC-Power-Barrel.jpg">
  - 7.62mm barrier terminal block [example](https://ebyelectro.com/terminal-block-product-info.asp?ProductID=333)
- <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/barrier-7_62.png">
  - Ebay search for "2X8 Pin 2.54mm Double Row Female Header" or polulu product #1028, you can also use twice 1x8 pin female or even twice 2x4 pins female, plenty of option for this one
+ 
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/DC-Power-Barrel.jpg">
+ <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/barrier-7_62.png">
  <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/2X8-pin-connector.jpg">
 
 # License
