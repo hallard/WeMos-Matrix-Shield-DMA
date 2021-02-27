@@ -4,7 +4,7 @@ This shield is the following of this [project](https://github.com/hallard/WeMos-
 
 This board is used to simplify ESP32 connectivity with a nice matric RGB led. This idea came from excellent project called [Morphing Digital Clock][3] done by [HariFun][1] Instructable. But with this library and current code I got some issues with mutitasking, and using same time the awesome Async libraries ([Web Server](https://github.com/me-no-dev/ESPAsyncWebServer) and [MQTT](https://github.com/marvinroger/async-mqtt-client)) getting very ofther in reboot and board reset. I don't blame anyone, the library used was just to drive matrix, it's always complicated mixing some libraries sometimes especially ones with hardware intensive related suff, IRQ's and TCP.
 
-This was until [@mrfaptastic](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA) released the DMA version wich is far less CPU intensive. I tested this one with Async Web Server, Async MQTT and OTA without any issue. You can participate to the discussion [here](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA/discussions/96) Thanks to github for this new feature.
+This was until [@mrfaptastic](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA) released the DMA version wich is far less CPU intensive. I tested this one with Async Web Server, Async MQTT and OTA without any issue. You can participate to the @vortigont started discussion [here](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA/discussions/96) Thanks to github for this new feature.
 
 
 See it in action, nice isn't it?
@@ -19,6 +19,7 @@ This breakout has just few minimal features.
 - PCB board has been extented to fit this ESP32 Mini module .
 - LDR to dynamically change brightness according to ambiant light
 - I2C connectors as header and Groove to plug a bunch of sensors
+- Added one touch pad button
 
 
 Please check wiring and picture before ordering, should looks like something like that:
@@ -77,7 +78,10 @@ Nothing fancy, just some headers and 2 differents power conector (choose the one
  <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/barrier-7_62.png">
 - Ebay search for "2X8 Pin 2.54mm Double Row Female Header" or polulu product #1028, you can also use twice 1x8 pin female or even twice 2x4 pins female, plenty of option for this one
  <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/2X8-pin-connector.jpg">
-
+- 10K 0805 resistor for LDR 
+- Any LDR PhotoCell 5528
+- I2C 4.7K resistor 0805 if needed, default I2C set to 3.3V use JP3 if you prefer 5V
+- Diode can be any Schottky diode barrier and is not mandatory (if not close JP4 jumper)
 
 # License
 
@@ -89,7 +93,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 
 See news and other projects on my [blog][2] 
 
-Thanks to [HariFun][1] for this awesome stuff, please review and see how to build on [Instructable][3]
+Thanks to @mrfaptastic, @vortigont, @me-no-dev and all other I may forgot.
  
 [1]: https://www.instructables.com/member/HariFun/
 [2]: https://hallard.me
