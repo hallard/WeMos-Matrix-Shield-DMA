@@ -13,6 +13,11 @@ See it in action, nice isn't it?
 
 This breakout has just few minimal features.
 
+
+**New in Version V1.8a**
+
+- Added C1, C2, C3 footprints. It's to add capacitor to poor 3.3V VOut of esp32 on board regulator. This one is not output filtered enough resulting sometimes with brownout reset loop. Now you can plug radial or 1 (or 2) SMD 0805 in parallel
+
 **New in DMA Version V1.8**
 
 - Removed ESP8266 compatibility, since DMA need more GPIO it's now exclusive to ESP32 boards with WeMos Mini D1 wiring called ESP32 Mini Kit or ESP32 Wemos, or ESP32 MH-ET Live such as this [banggood model](https://www.banggood.com/Wemos-D1-Mini-ESP32-ESP-32-WiFiBluetooth-Internet-Of-Things-Development-Board-Based-ESP8266-p-1205854.html) or this [aliexpress](https://www.aliexpress.com/item/MH-ET-LIVE-D1-mini-ESP32-ESP-32-WiFi-Bluetooth-Internet-of-Things-development-board-based/32815530502.html). But you can find a lot also on ebay, not a problem.
@@ -20,6 +25,7 @@ This breakout has just few minimal features.
 - LDR to dynamically change brightness according to ambiant light
 - I2C connectors as header and Groove to plug a bunch of sensors
 - Added one touch pad button
+- No need to wire back the shield to HUB75 output of the Matrix Panel
 
 
 Please check wiring and picture before ordering, should looks like something like that:
@@ -29,7 +35,7 @@ Please check wiring and picture before ordering, should looks like something lik
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/esp32-mini.jpg">
 
 
-**V1.8 boards are untested** so until I validate use at your own risk, but I'm confident it should works out of the box.
+**V1.8 and V1.8a boards are untested** so until I validate use them at your own risk, but I'm confident it should works out of the box.
 
 # Detailed Description
 
@@ -52,8 +58,9 @@ You can order the PCB of this board at [PCBs.io][4]. PCBs.io give me some reward
 
 Looks like PCBs.io is gone, I do not have any rewards from PCBs.io since August 2020 and my free order placed after are still not received, so my guess they are not on business anymore and my $1000 rewards are not usable anymore, too bad.
 
-So you can order the board on [oshpark](https://oshpark.com). 
+So you can order the board on [oshpark](https://oshpark.com) or submit gerbers.zip file to any PCB manufacturer of your choice.
 
+- [V1.8a](https://oshpark.com/shared_projects/mSjHHAd4)
 - [V1.8](https://oshpark.com/shared_projects/a4poObQ7)
 
 It's a pitty after several discuss with OSHPark that I can't have any rewards for each people ordering my boards, this would allow me to order free PCB for shared projects and create new ones. For information my shared boards generated a total of **$285 162.00** orders at PCBs.io in 4 years, not bad at all :-)
@@ -75,6 +82,7 @@ Nothing fancy, just some headers and 2 differents power conector (choose the one
  - 10K 0805 resistor for LDR
  - Any LDR PhotoCell 5528
  - I2C 4.7K resistor 0805 if needed, default I2C set to 3.3V use JP3 if you prefer 5V
+ - For better stability C1 100uF 16V electrolytic, or C2 100uF 0805, or C2+C3 47uF 0805
  - Diode can be any Schottky diode barrier and is not mandatory (if not close JP4 jumper)
  - Ebay search for "DC Power Jack Barrel PCB Mount"
  - 7.62mm barrier terminal block [example](https://ebyelectro.com/terminal-block-product-info.asp?ProductID=333)
