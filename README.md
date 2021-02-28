@@ -47,8 +47,8 @@ Look at the schematics for more informations.
 
 # Boards  
 
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-top.png" alt="Top" width="50%" height="50%">&nbsp;
-<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-bot.png" alt="Bottom" width="50%" height="50%">
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-top.png" alt="Top" width="45%" height="45%">&nbsp;
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-bot.png" alt="Bottom" width="45%" height="45%">
 
 You can order the PCB of this board at [PCBs.io][4]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order them for free, so if you don't care about PCB manufacturer please use PCBs.io.
 
