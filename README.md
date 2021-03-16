@@ -13,6 +13,15 @@ See it in action, nice isn't it?
 
 This breakout has just few minimal features.
 
+**New in Version V1.9**
+
+- Touchpad 9 (T9) used and wired to GPIO32
+- Exposed (top right corner) GPIO0 instead of GPIO32
+- Reversed I2C connector order, because all I2C wiring have components on top except Luminosity TSL2561 BH1750, now fixed
+- I2C connector order have drilled holes to match sensor plug, no need to solder to fix or swap sensor type. Just press it to fit into holes
+- Added another pin close to I2C connector connected to GPIO34 (for using sensor IRQ pin for example)
+- Major re-routing to fix issues
+
 
 **New in Version V1.8a**
 
@@ -34,8 +43,10 @@ Please check wiring and picture before ordering, should looks like something lik
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/esp32-mini.jpg">
 
+**V1.9 are untested** so until I validate use them at your own risk, but (this time) I'm confident it should works out of the box.
 
-**V1.8 and V1.8a boards are untested** so until I validate use them at your own risk, but I'm confident it should works out of the box.
+**V1.8 and V1.8a boards are not working** I've been too confident, this is the 1st time I need to throw out all boards. Reason is that both ESP32 headers the ones side by side were reversed (on each side).
+I mean the 1st was the 2nd and vice versa), So as you can imagine nothing was unable to works, even flashing ESP32.
 
 # Detailed Description
 
@@ -60,8 +71,7 @@ Looks like PCBs.io is gone, I do not have any rewards from PCBs.io since August 
 
 So you can order the board on [oshpark](https://oshpark.com) or submit gerbers.zip file to any PCB manufacturer of your choice.
 
-- [V1.8a](https://oshpark.com/shared_projects/mSjHHAd4)
-- [V1.8](https://oshpark.com/shared_projects/a4poObQ7)
+- [V1.9](https://oshpark.com/shared_projects/gCeBFgxd)
 
 It's a pitty after several discuss with OSHPark that I can't have any rewards for each people ordering my boards, this would allow me to order free PCB for shared projects and create new ones. For information my shared boards generated a total of **$285 162.00** orders at PCBs.io in 4 years, not bad at all :-)
 
