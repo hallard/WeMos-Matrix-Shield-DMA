@@ -25,10 +25,12 @@ This breakout has just few minimal features.
 
 **New in Version V1.8a**
 
+- **this PCB version does not work, please don't use it**
 - Added C1, C2, C3 footprints. It's to add capacitor to poor 3.3V VOut of esp32 on board regulator. This one is not output filtered enough resulting sometimes with brownout reset loop. Now you can plug radial or 1 (or 2) SMD 0805 in parallel
 
 **New in DMA Version V1.8**
 
+- **this PCB version does not work, please don't use it**
 - Removed ESP8266 compatibility, since DMA need more GPIO it's now exclusive to ESP32 boards with WeMos Mini D1 wiring called ESP32 Mini Kit or ESP32 Wemos, or ESP32 MH-ET Live such as this [banggood model](https://www.banggood.com/Wemos-D1-Mini-ESP32-ESP-32-WiFiBluetooth-Internet-Of-Things-Development-Board-Based-ESP8266-p-1205854.html) or this [aliexpress](https://www.aliexpress.com/item/MH-ET-LIVE-D1-mini-ESP32-ESP-32-WiFi-Bluetooth-Internet-of-Things-development-board-based/32815530502.html). But you can find a lot also on ebay, not a problem.
 - PCB board has been extented to fit this ESP32 Mini module .
 - LDR to dynamically change brightness according to ambiant light
