@@ -45,7 +45,7 @@ Please check wiring and picture before ordering, should looks like something lik
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/esp32-mini.jpg">
 
-**V1.9 are untested** so until I validate use them at your own risk, but (this time) I'm confident it should works out of the box.
+**V1.9 are fully tested and working**.
 
 **V1.8 and V1.8a boards are not working** I've been too confident, this is the 1st time I need to throw out all boards. Reason is that both ESP32 headers the ones side by side were reversed (on each side).
 I mean the 1st was the 2nd and vice versa), So as you can imagine nothing was unable to works, even flashing ESP32.
@@ -62,8 +62,6 @@ Look at the schematics for more informations.
 
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-top.png" alt="Top" width="45%" height="45%">&nbsp;
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-bot.png" alt="Bottom" width="45%" height="45%">
-
-You can order the PCB of this board at [PCBs.io][4]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order them for free, so if you don't care about PCB manufacturer please use PCBs.io.
 
 ~~You can order PCBs of this board at [PCBs.io)(ttps://www.pcbs.io/)~~
 
@@ -84,6 +82,12 @@ Hoping one day OSHparks will thanks me giving them this market.
 I suggest you to look at the awesome [examples](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA/tree/master/examplesk) located in the [library](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA) driving the Matrix Panel.
  
 # Assembled boards
+
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-assembled-top.jpg" alt="Assembled Top" width="45%" height="45%">&nbsp;
+<img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-assembled-bot.jpg" alt="Assembled Bottom" width="45%" height="45%">
+
+
+
 
 To be done, still waiting for PCB to test
 
