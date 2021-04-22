@@ -86,11 +86,6 @@ I suggest you to look at the awesome [examples](https://github.com/mrfaptastic/E
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-assembled-top.jpg" alt="Assembled Top" width="45%" height="45%">&nbsp;
 <img src="https://github.com/hallard/WeMos-Matrix-Shield-DMA/blob/main/pictures/WeMos-Matrix-Shield-DMA-assembled-bot.jpg" alt="Assembled Bottom" width="45%" height="45%">
 
-
-
-
-To be done, still waiting for PCB to test
-
 # BOM
 
 Nothing fancy, just some headers and 2 differents power conector (choose the one you prefer) :
